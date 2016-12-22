@@ -1,0 +1,18 @@
+{
+  "name": "internl-info",
+  "version": "0.0.1",
+  "description": "This is a crawler used to crawl byrbbs' internal info of FE.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alvinYuXT",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "iconv-lite": "^0.4.15",
+    "nodemailer": "^2.7.0",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
+  }
+}
