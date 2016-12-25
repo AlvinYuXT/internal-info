@@ -9,6 +9,6 @@ module.exports = {
   },
   from: user,
   to: 'yuxitong_al@163.com',
-  keyword: '',
+  keyword: '前端',
   url: 'https://bbs.byr.cn/rss/board-ParttimeJob'
 }
