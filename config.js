@@ -1,8 +1,14 @@
+var user = '406353374@qq.com'
 module.exports = {
-  user: '406353374@qq.com',
-  pass: '****',
+  smtpConfig: {
+    service: 'qq',
+    auth: {
+      user: user,
+      pass: 'lhxaeiowgewjbgid'
+    }
+  },
+  from: user,
   to: 'yuxitong_al@163.com',
-  secureConnection: true,
-  keyword: '前端',
+  keyword: '',
   url: 'https://bbs.byr.cn/rss/board-ParttimeJob'
 }
