@@ -60,7 +60,7 @@ request(options)
       if (error) {
         return console.log(error);
       }
-      console.log('Message sent: ' + info.response);
+      console.log(`${new Date()} success`);
     });
   })
   .catch(err => {
