@@ -11,14 +11,19 @@
 1. 修改配置文件
 
    ```javascript
-   module.exports = {
-     user: 'example@qq.com',
-     pass: '****',
-     to: 'example@qq.com',
-     secureConnection: true,
-     keyword: '前端',
-     url: 'https://bbs.byr.cn/rss/board-ParttimeJob'
-   }
+   {
+    smtpConfig: {
+      service: 'qq',
+      auth: {
+        user: 'example@qq.com',
+        pass: 'pass'
+      }
+    },
+    from: user,
+    to: 'example@163.com',
+    keyword: 'example',
+    url: 'https://bbs.byr.cn/rss/board-ParttimeJob'
+  }
    ```
 
 2. node index.js

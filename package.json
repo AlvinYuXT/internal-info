@@ -4,7 +4,7 @@
   "description": "This is a crawler used to crawl byrbbs' internal info of FE.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "run": "node index.js"
   },
   "author": "alvinYuXT",
   "license": "MIT",
