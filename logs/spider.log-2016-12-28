@@ -1,0 +1,2 @@
+[2016-12-28 16:53:41.464] [INFO] spider - login ssucessfully
+[2016-12-28 21:44:08.072] [ERROR] spider - login error TypeError: Cannot read property 'ajax_code' of undefined
